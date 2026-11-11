@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Spark local artifacts
+spark-warehouse/
+metastore_db/
+derby.log
+*.crc
+_SUCCESS
+
+# Large or temporary generated data (keep small samples and metadata only)
+Data/**/tmp/
+*.log
+
+# Model checkpoints (too large for GitHub)
+checkpoints/
+*.bin
+*.safetensors
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
