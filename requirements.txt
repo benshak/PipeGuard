@@ -1,0 +1,17 @@
+# Data processing
+pyspark
+pandas
+pyarrow
+
+# LLM / ML
+openai
+transformers
+datasets
+evaluate
+torch
+scikit-learn
+sentence-transformers
+
+# Optional (SHOULD / STRETCH)
+# apache-airflow
+# peft
